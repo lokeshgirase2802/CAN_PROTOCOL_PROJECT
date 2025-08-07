@@ -29,37 +29,7 @@ main(){
 	txF.Data2=0;
 	cmdLCD(0x0f);
 	while(1){
-
-		/*              eAR_voltage = Read_ADC(ch0);
-
-				cmdLCD(GOTO_LINE1_POS0);
-				strLCD("Voltage: ");
-				cmdLCD(GOTO_LINE1_POS0+9);
-				F32LCD(eAR_voltage, 3);
-				strLCD(" V\r\n");
-
-				fuel_per = ((eAR_voltage - VMIN) * 100) / (VMAX - VMIN);
-
-				if(fuel_per>=100)
-				{
-				fuel_per=100;
-				}
-				else if(fuel_per<=0)
-				{
-				fuel_per=0;
-				}
-
-				delay_ms(500);
-				if(fuel_per>=100)
-				{
-				fuel_per=100;
-				}
-				else if(fuel_per<=0)
-				{
-				fuel_per=0;
-				}
-				*/
-
+		
 		result = Read_ADC(0x01);
 		cmdLCD(0x80);
 		F32LCD(result,4);
@@ -82,5 +52,6 @@ main(){
 		txF.Data1=((~txF.Data1)&0x0);
 	}
 }
+
 
 
