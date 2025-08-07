@@ -1,5 +1,4 @@
 //EXTERNAL_INTERRUPTS.c
-/*
 #include <lpc21xx.h>
 #include "pin_function_defines.h"
 #include "defines.h"
@@ -19,8 +18,6 @@ unsigned int count;
 
 #define EINT0_LED 10
 #define EINT1_LED 11
-*/
-                   /* external_interrupts_test2.c */
 
 #include <lpc21xx.h>
 
@@ -36,11 +33,6 @@ unsigned int count;
 
 #define EINT1_LED 11
 
-//#define EINT2_LED 12
-
-//#define EINT3_LED 13
-
-
 void delay_ms(unsigned dlyMS);
 
 
@@ -48,19 +40,9 @@ void eint0_isr(void) __irq;
 
 void eint1_isr(void) __irq;
 
-//void eint2_isr(void) __irq;
-
-//void eint3_isr(void) __irq;
-
-
 void Enable_EINT0(void);
 
 void Enable_EINT1(void);
-
-//void Enable_EINT2(void);
-
-//void Enable_EINT3(void);
-
 
 unsigned int count;
 
@@ -72,13 +54,7 @@ main()
 	Enable_EINT0();
 
 	Enable_EINT1();
-	while(1);
-
-//	Enable_EINT2();
-
-//	Enable_EINT3();
-
-		
+	while(1);	
 
 }
 void eint0_isr(void) __irq
@@ -143,4 +119,5 @@ void Enable_EINT1(void)
         SETBIT(EXTMODE,1);
         SETBIT(EXTPOLAR,1);
 }
+
 
