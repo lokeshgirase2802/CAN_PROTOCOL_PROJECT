@@ -38,7 +38,7 @@ This project implements a **Controller Area Network (CAN) based communication sy
 
    * **Connected Devices**:
 
-     * ADC-based Fuel Gauge Sensor.
+     * ADC-based Fuel Gauge.
    * **Functionality**:
 
      * Reads **fuel level data** using ADC.
