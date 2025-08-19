@@ -1,9 +1,6 @@
 # CAN_PROTOCOL_PROJECT
-Got it 👍 You want a **professional project description** (suitable for GitHub README) for your **CAN-based 3-node system** with accelerometer, LCD, indicators, and fuel gauge. Here’s a polished version you can directly use:
 
----
-
-# 🚗 CAN Bus Based Multi-Node Embedded System
+# 🚗 REAL TIME VEHICLE MONITORING STSTEM USING CAN 
 
 ## 📖 Project Description
 
