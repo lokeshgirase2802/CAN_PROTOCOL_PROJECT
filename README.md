@@ -16,7 +16,7 @@ This project implements a **Controller Area Network (CAN) based communication sy
    * **Connected Devices**:
 
      * MMA7660 3-axis Accelerometer (via **I²C**)
-     * 16x2 LCD Display
+     * 20x4 LCD Display
    * **Functionality**:
 
      * Reads motion/tilt data from MMA7660.
@@ -74,7 +74,7 @@ This project implements a **Controller Area Network (CAN) based communication sy
 * **Display**: 16x2 LCD
 * **Indicators**: 7 Active-Low LEDs
 * **Fuel Gauge Sensor**: ADC-based input
-* **Protocol**: CAN 2.0B
+* **Protocol**: CAN 2.0A
 
 ---
 
