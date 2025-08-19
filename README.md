@@ -68,7 +68,7 @@ This project implements a **Controller Area Network (CAN) based communication sy
 
 * **Microcontroller**: LPC2129 (ARM7-based MCU)
 * **Accelerometer**: MMA7660 (via I²C)
-* **Display**: 16x2 LCD
+* **Display**: 20x4 LCD
 * **Indicators**: 7 Active-Low LEDs
 * **Fuel Gauge Sensor**: ADC-based input
 * **Protocol**: CAN 2.0A
